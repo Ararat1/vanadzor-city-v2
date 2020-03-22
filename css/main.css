@@ -1,0 +1,389 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@font-face {
+  font-family: "Montserrat-light";
+  src: url("../fonts/Montserrat/Montserrat-Light.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-regular";
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-semiBold";
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-bold";
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+  font-style: normal; }
+
+html {
+  font-size: 10px; }
+
+body {
+  min-width: 340px;
+  font-family: "Montserrat-regular";
+  font-size: 1.6rem;
+  color: #292929; }
+
+section {
+  padding: 3rem 0; }
+  section .heading h2 {
+    font-size: 4rem;
+    font-family: "Montserrat-semiBold";
+    margin-bottom: 3rem; }
+    section .heading h2:after {
+      content: "";
+      display: block;
+      width: 9rem;
+      height: 0.4rem;
+      background-color: #292929;
+      margin: 0 auto;
+      margin-top: 2rem; }
+
+header {
+  font-family: "Montserrat-light";
+  position: relative;
+  background: url("../images/header/bg.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding-top: 4rem;
+  padding-bottom: 2rem; }
+  header .menu {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 2rem; }
+    header .menu .navbar-brand {
+      font-size: 2rem; }
+      header .menu .navbar-brand i {
+        font-size: 3.5rem;
+        color: #ffc74a;
+        margin-right: 1rem; }
+      header .menu .navbar-brand span {
+        font-family: "Montserrat-regular";
+        letter-spacing: .2rem; }
+    header .menu .navbar-toggler {
+      font-size: 2rem;
+      border: none;
+      outline-style: none; }
+      header .menu .navbar-toggler:active {
+        background: rgba(0, 0, 0, 0.5); }
+    header .menu .navbar-nav {
+      color: #fff; }
+    header .menu .nav-item {
+      color: #fff;
+      padding: .5rem;
+      border-bottom: 1px solid rgba(0, 0, 0, 0);
+      cursor: pointer; }
+      header .menu .nav-item:hover {
+        border-color: #ffc74a; }
+    header .menu .nav-link {
+      text-transform: uppercase; }
+  header .greeting {
+    color: #fff; }
+    header .greeting h1 {
+      font-size: 6rem;
+      letter-spacing: 0.25;
+      margin-bottom: 2rem; }
+      header .greeting h1 strong {
+        color: #ed6950;
+        font-family: "Montserrat-bold"; }
+    header .greeting p {
+      margin-bottom: 2rem;
+      font-size: 2rem; }
+  header .button button {
+    padding: 0 2rem;
+    font-size: 3.5rem;
+    color: #ffc74a;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    outline-style: none; }
+    header .button button a {
+      color: inherit;
+      outline-style: none; }
+
+section#history {
+  background: #f3eaea; }
+  section#history .heading h2 {
+    color: #292929; }
+  section#history .image img {
+    border-bottom: 6px inset #5c80db;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 100%; }
+  section#history .text {
+    line-height: 2rem;
+    font-size: 1.4rem; }
+    section#history .text .link {
+      display: block;
+      font-size: 1.8rem;
+      margin-top: 1rem;
+      margin-left: 75%;
+      color: #292929; }
+
+section#places {
+  background: #fff; }
+  section#places .card-wrapper {
+    background: inherit;
+    padding: 10px; }
+    section#places .card-wrapper .card {
+      border: 0;
+      -webkit-box-shadow: 0px 0px 99px -25px rgba(92, 128, 219, 0.58);
+      box-shadow: 0px 0px 99px -25px rgba(92, 128, 219, 0.58);
+      -webkit-transition-duration: 100ms;
+      -o-transition-duration: 100ms;
+      transition-duration: 100ms;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      section#places .card-wrapper .card:hover {
+        -webkit-box-shadow: 0px 0px 75px -10px rgba(92, 128, 219, 0.58);
+        box-shadow: 0px 0px 75px -10px rgba(92, 128, 219, 0.58);
+        -webkit-transform: translateY(-10%);
+        -ms-transform: translateY(-10%);
+        transform: translateY(-10%); }
+    section#places .card-wrapper .card-hotel {
+      min-height: 325px; }
+    section#places .card-wrapper .card-img {
+      margin-bottom: 20px; }
+      section#places .card-wrapper .card-img img {
+        max-width: 100%; }
+    section#places .card-wrapper .card-title {
+      font-size: 1.6rem;
+      font-family: "Montserrat-semiBold";
+      margin-bottom: 10px;
+      text-align: center;
+      line-height: 25px; }
+    section#places .card-wrapper .card-subtitle {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      color: grey; }
+    section#places .card-wrapper .score {
+      margin-bottom: 20px; }
+    section#places .card-wrapper button {
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      color: #fff;
+      background: #5c80db;
+      border: 0;
+      border-radius: 5px;
+      outline-style: none;
+      padding: 5px 25px;
+      margin-bottom: 20px; }
+      section#places .card-wrapper button:hover {
+        opacity: .8; }
+      section#places .card-wrapper button a {
+        color: inherit;
+        text-decoration: none; }
+
+section.gallery {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8); }
+  section.gallery button:hover {
+    opacity: .8; }
+  section.gallery .close-btn {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    font-size: 3rem;
+    outline: none;
+    border: 0;
+    margin-right: 30px; }
+  section.gallery .arrow {
+    color: #fff;
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-size: 2em;
+    border: 0;
+    outline: none; }
+  section.gallery .slide {
+    height: 85vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    section.gallery .slide img {
+      max-width: 100%;
+      max-height: 90vh;
+      margin: 0 auto; }
+
+section#hotels {
+  background: #f3eaea; }
+  section#hotels .card-wrapper {
+    background: inherit;
+    padding: 10px; }
+    section#hotels .card-wrapper .card {
+      border: 0;
+      -webkit-box-shadow: 0px 0px 99px -25px rgba(92, 128, 219, 0.58);
+      box-shadow: 0px 0px 99px -25px rgba(92, 128, 219, 0.58);
+      -webkit-transition-duration: 100ms;
+      -o-transition-duration: 100ms;
+      transition-duration: 100ms;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      section#hotels .card-wrapper .card:hover {
+        -webkit-box-shadow: 0px 0px 75px -10px rgba(92, 128, 219, 0.58);
+        box-shadow: 0px 0px 75px -10px rgba(92, 128, 219, 0.58);
+        -webkit-transform: translateY(-10%);
+        -ms-transform: translateY(-10%);
+        transform: translateY(-10%); }
+    section#hotels .card-wrapper .card-hotel {
+      min-height: 325px; }
+    section#hotels .card-wrapper .card-img {
+      margin-bottom: 20px; }
+      section#hotels .card-wrapper .card-img img {
+        max-width: 100%; }
+    section#hotels .card-wrapper .card-title {
+      font-size: 1.6rem;
+      font-family: "Montserrat-semiBold";
+      margin-bottom: 10px;
+      text-align: center;
+      line-height: 25px; }
+    section#hotels .card-wrapper .card-subtitle {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      color: grey; }
+    section#hotels .card-wrapper .score {
+      margin-bottom: 20px; }
+    section#hotels .card-wrapper button {
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      color: #fff;
+      background: #5c80db;
+      border: 0;
+      border-radius: 5px;
+      outline-style: none;
+      padding: 5px 25px;
+      margin-bottom: 20px; }
+      section#hotels .card-wrapper button:hover {
+        opacity: .8; }
+      section#hotels .card-wrapper button a {
+        color: inherit;
+        text-decoration: none; }
+
+section#contact {
+  position: relative;
+  background: url("../images/contact/bg.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center; }
+  section#contact .contact-form {
+    width: 100%;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden; }
+    section#contact .contact-form .contact-form-text {
+      display: block;
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 16px 0;
+      border: 0;
+      background: rgba(17, 17, 17, 0.85);
+      padding: 20px 40px;
+      outline: none;
+      color: #ddd;
+      -webkit-transition: 100ms;
+      -o-transition: 100ms;
+      transition: 100ms;
+      border-bottom: 5px solid rgba(0, 0, 0, 0); }
+    section#contact .contact-form textarea.contact-form-text {
+      resize: none;
+      min-height: 24rem; }
+    section#contact .contact-form input.error, section#contact .contact-form textarea.error {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-bottom: 5px solid #ed6950; }
+    section#contact .contact-form .contact-form-btn {
+      float: right;
+      border: 0;
+      background: #5c80db;
+      color: #fff;
+      font-family: "Montserrat-semiBold";
+      padding: 12px 50px;
+      border-radius: 5px;
+      border-bottom: 5px solid #ed6950;
+      cursor: pointer;
+      -webkit-transition: 100ms;
+      -o-transition: 100ms;
+      transition: 100ms; }
+    section#contact .contact-form .contact-form-btn:hover {
+      background: #ed6950;
+      border-bottom-color: #5c80db; }
+
+footer {
+  background: #000;
+  font-size: 1.8rem;
+  padding: 3rem 0;
+  font-family: "Montserrat-light"; }
+  footer .first-line {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #fff; }
+  footer .logo a {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none; }
+    footer .logo a i {
+      font-size: 3.5rem;
+      color: #ffc74a;
+      margin-right: 1rem; }
+    footer .logo a span {
+      font-family: "Montserrat-regular";
+      letter-spacing: .2rem; }
+  footer .follow h3 {
+    color: lightgrey;
+    margin-bottom: 1rem; }
+  footer .follow ul li {
+    padding: .3rem 0;
+    font-size: 1.5rem; }
+  footer .follow ul a {
+    color: grey; }
+  footer .navigation li {
+    padding: .8rem 0; }
+    footer .navigation li a {
+      color: #fff; }
+  footer .second-line {
+    margin-top: 3rem; }
+    footer .second-line p {
+      color: #fff; }
+
+@media screen and (max-width: 992px) {
+  header .navbar-nav {
+    margin-top: 2rem; }
+  section#history .image {
+    padding-top: 2rem; } }
+
+@media screen and (max-width: 768px) {
+  footer .follow {
+    margin-top: 2rem; }
+  footer .navigation {
+    margin-top: 2rem; } }
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 8px; } }

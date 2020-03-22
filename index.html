@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  EXTERNAL FILES  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="external/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="external/remodal/remodal.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="external/slick/slick.css">
+    <link rel="stylesheet" href="external/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- LOGO -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <!-- PAGE TITLE -->
+    <title>Vanadzor City</title>
+</head>
+
+<body>
+    <header class="d-flex" id="header">
+        <div class="container-fluid d-flex flex-column justify-content-between align-items-center">
+            <div class="row menu w-100">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <a class="navbar-brand d-flex align-items-center" href="#header" data-target="anchor">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Vanadzor.</span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-lg-auto d-flex justify-content-center align-items-center">
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#header" data-target="anchor">Home</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#history"
+                                        data-target="anchor">History</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#places" data-target="anchor">places</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#hotels" data-target="anchor">hotels</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#contact"
+                                        data-target="anchor">contact</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row greeting">
+                <div class="col-12 text-center">
+                    <h1>Welcome to <strong>Vanadzor</strong></h1>
+                    <p>The city of opportunities</p>
+                </div>
+            </div>
+
+            <div class="row button">
+                <div class="col-12">
+                    <button><a href="#history" data-target="anchor"><i class="fas fa-chevron-down"></i></a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="history">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 heading text-center">
+                    <h2>History</h2>
+                </div>
+
+                <div class="col-lg-6 order-2 order-lg-1 image d-flex justify-content-center align-items-center">
+                    <img src="./images/history/1.jpg" alt="Grigor Narekatsi church" title="Grigor Narekatsi church">
+                </div>
+
+                <div class="col-lg-6 order-1 order-lg-2 text">
+                    <p>The area of present-day Vanadzor has been settled since the Bronze Age, based on the tombs and
+                        other historic remains found on the nearby hills of Tagavoranist and Mashtots. During the
+                        ancient Armenian kingdoms, the area was considered as part of the Tashir canton of Gugark; the
+                        13th province of the Kingdom of Armenia (Armenia Mayor), until the end of the Artaxiad Dynasty's
+                        rule over Armenia in the 1st century AD. Later, the region was ruled by the other Armenian
+                        dynasties of the Arsacids and the Bagratunis. By the end of the 10th century, the area became
+                        part of the Kingdom of Lori (Kingdom of Tashir-Dzoraget) until the beginning of the 12th
+                        century. With the invasion of the Seljuk Turks, the region came under the rule of the Great
+                        Seljuk Empire. The settlement was called Gharakilisa (meaning the black church in Turkic) by the
+                        Seljuks possibly as early as the 13th century, the name being taken from the black-stoned
+                        Armenian church of the Holy Mother of God on a nearby hill.
+                        <br> <a href="https://en.wikipedia.org/wiki/Vanadzor" target="_blank" class="link">read more
+                            &rarr;</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="places">
+        <div class="container">
+            <div class="col-12 heading text-center">
+                <h2>Places</h2>
+            </div>
+            <div class="row cards justify-content-around">
+                <div class="col-9 col-sm-6 col-lg-4 col-xl-3 card-wrapper">
+                    <div class="card w-100 d-flex align-items-center align-items-center">
+                        <div class="card-img">
+                            <img src="images/places/1.jpg" alt="card-image" title="Grigor Marekatsi church">
+                        </div>
+                        <h3 class="card-title">Grigor Narekatsi church</h3>
+                        <button data-id="0" data-remodal-target="gallery">see more</button>
+                    </div>
+                </div>
+                <div class="col-9 col-sm-6 col-lg-4 col-xl-3 card-wrapper">
+                    <div class="card w-100 d-flex align-items-center align-items-center">
+                        <div class="card-img">
+                            <img src="images/places/2.jpg" alt="card-image" title="Black church">
+                        </div>
+                        <h3 class="card-title">Black church</h3>
+                        <button data-id="1" data-remodal-target="gallery">see more</button>
+                    </div>
+                </div>
+                <div class="col-9 col-sm-6 col-lg-4 col-xl-3 card-wrapper">
+                    <div class="card w-100 d-flex align-items-center align-items-center">
+                        <div class="card-img">
+                            <img src="images/places/3.jpg" alt="card-image" title="The city">
+                        </div>
+                        <h3 class="card-title">The city</h3>
+                        <button data-id="2" data-remodal-target="gallery">see more</button>
+                    </div>
+                </div>
+                <div class="col-9 col-sm-6 col-lg-4 col-xl-3 card-wrapper">
+                    <div class="card w-100 d-flex align-items-center align-items-center">
+                        <div class="card-img">
+                            <img src="images/places/4.jpg" alt="card-image" title="The city park">
+                        </div>
+                        <h3 class="card-title">The city park</h3>
+                        <button data-id="3" data-remodal-target="gallery">see more</button>
+                    </div>
+                </div>
+                <div class="col-9 col-sm-6 col-lg-4 col-xl-3 card-wrapper">
+                    <div class="card w-100 d-flex align-items-center align-items-center">
+                        <div class="card-img">
+                            <img src="images/places/5.jpg" alt="card-image" title="Nature">
+                        </div>
+                        <h3 class="card-title">Nature</h3>
+                        <button data-id="4" data-remodal-target="gallery">see more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery remodal" data-remodal-id="gallery">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-right">
+                    <button class="close-btn" data-remodal-action="close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1 d-flex justify-content-center align-items-center">
+                    <button class="arrow arrow-prev">
+                        <i class="fa fa-chevron-left"></i>
+                    </button>
+                </div>
+
+                <div class="col-10">
+                    <div class="slider">
+                        <!-- ... -->
+                    </div>
+                </div>
+
+                <div class="col-1 d-flex justify-content-center align-items-center">
+                    <button class="arrow arrow-next">
+                        <i class="fa fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hotels">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 heading text-center">
+                    <h2>Hotels</h2>
+                </div>
+            </div>
+            <div class="row cards justify-content-around">
+                <div class="col-9 col-sm-6 col-lg-4 col-xl-3 card-wrapper">
+                    <div class="card card-hotel w-100 d-flex align-items-center">
+                        <div class="card-img">
+                            <img src="images/hotels/1.jpg" alt="card-image" title="Hotel Kirovakan">
+                        </div>
+                        <h3 class="card-title">Hotel Kirovakan</h3>
+                        <p class="card-subtitle distance">Vanadzor</p>
+                        <p class="card-subtitle score">3.7/5</p>
+                        <button><a
+                                href="https://www.expedia.com/Vanadzor-Hotels-Hotel-Kirovakan.h36513921.Hotel-Information?chkin=2020-03-24&chkout=2020-03-25&x_pwa=1&rfrr=HSR&pwa_ts=1584433354523&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&swpToggleOn=true&rm1=a2&regionId=6353127&destination=Vanadzor%2C+Armenia&destType=MARKET&sort=recommended&top_dp=24&top_cur=USD&gclid=Cj0KCQjw9ZzzBRCKARIsANwXaeL_4T27nclS7a74szDA7fKD1uoIsQPKgmnKW5Wk5IeHKKIW2-A45dUaAt8-EALw_wcB&semcid=US.UB.GOOGLE.DL-c-EN.HOTEL"
+                                target="_blank">see more</a></button>
+                    </div>
+                </div>
+                <div class="col-9 col-sm-6 col-lg-4 col-xl-3 card-wrapper">
+                    <div class="card card-hotel w-100">
+                        <div class="card-img">
+                            <img src="images/hotels/2.jpg" alt="card-image" title="Tezh Ler Resort">
+                        </div>
+                        <h3 class="card-title">Tezh Ler Resort</h3>
+                        <p class="card-subtitle distance">6.54 mi from Vanadzor</p>
+                        <p class="card-subtitle score">4.6/5</p>
+                        <button><a
+                                href="https://www.expedia.com/Shahumyan-Hotels-Tezh-Ler-Resort.h13429745.Hotel-Information?chkin=2020-03-24&chkout=2020-03-25&x_pwa=1&rfrr=HSR&pwa_ts=1584433354530&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&swpToggleOn=true&rm1=a2&regionId=6353127&destination=Vanadzor%2C+Armenia&destType=MARKET&sort=recommended&top_dp=40&top_cur=USD&gclid=Cj0KCQjw9ZzzBRCKARIsANwXaeL_4T27nclS7a74szDA7fKD1uoIsQPKgmnKW5Wk5IeHKKIW2-A45dUaAt8-EALw_wcB&semcid=US.UB.GOOGLE.DL-c-EN.HOTEL"
+                                target="_blank">see more</a></button>
+                    </div>
+                </div>
+                <div class="col-9 col-sm-6 col-lg-4 col-xl-3 card-wrapper">
+                    <div class="card card-hotel w-100">
+                        <div class="card-img">
+                            <img src="images/hotels/3.jpg" alt="card-image" title="Ecokayan Dilijan Resort Hotel">
+                        </div>
+                        <h3 class="card-title">Ecokayan Dilijan Resort Hotel</h3>
+                        <p class="card-subtitle distance">19.74 mi from Vanadzor</p>
+                        <p class="card-subtitle score">4.6/5</p>
+                        <button><a
+                                href="https://www.expedia.com/Dilijan-Hotels-Ecokayan-Dilijan-Resort-Hotel.h23810611.Hotel-Information?chkin=2020-03-24&chkout=2020-03-25&x_pwa=1&rfrr=HSR&pwa_ts=1584433354535&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&swpToggleOn=true&rm1=a2&regionId=6353127&destination=Vanadzor%2C+Armenia&destType=MARKET&sort=recommended&top_dp=34&top_cur=USD&gclid=Cj0KCQjw9ZzzBRCKARIsANwXaeL_4T27nclS7a74szDA7fKD1uoIsQPKgmnKW5Wk5IeHKKIW2-A45dUaAt8-EALw_wcB&semcid=US.UB.GOOGLE.DL-c-EN.HOTEL"
+                                target="_blank">see more</a></button>
+                    </div>
+                </div>
+                <div class="col-9 col-sm-6 col-lg-4 col-xl-3 card-wrapper">
+                    <div class="card card-hotel w-100">
+                        <div class="card-img">
+                            <img src="images/hotels/4.jpg" alt="card-image" title="Artsiv Guesthouse">
+                        </div>
+                        <h3 class="card-title">Artsiv Guesthouse</h3>
+                        <p class="card-subtitle distance">21.46 mi from Vanadzor</p>
+                        <p class="card-subtitle score">4.5/5</p>
+                        <button><a
+                                href="https://www.expedia.com/Dilijan-Hotels-Artsiv-Guesthouse.h33663523.Hotel-Information?chkin=2020-03-24&chkout=2020-03-25&x_pwa=1&rfrr=HSR&pwa_ts=1584433354570&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&swpToggleOn=true&rm1=a2&regionId=6353127&destination=Vanadzor%2C+Armenia&destType=MARKET&sort=recommended&gclid=Cj0KCQjw9ZzzBRCKARIsANwXaeL_4T27nclS7a74szDA7fKD1uoIsQPKgmnKW5Wk5IeHKKIW2-A45dUaAt8-EALw_wcB&semcid=US.UB.GOOGLE.DL-c-EN.HOTEL"
+                                target="_blank">see more</a></button>
+                    </div>
+                </div>
+                <div class="col-9 col-sm-6 col-lg-4 col-xl-3 card-wrapper">
+                    <div class="card card-hotel w-100">
+                        <div class="card-img">
+                            <img src="images/hotels/5.jpg" alt="card-image" title="Dghyak Pansion">
+                        </div>
+                        <h3 class="card-title">Dghyak Pansion</h3>
+                        <p class="card-subtitle distance">21.18 mi from Vanadzor</p>
+                        <p class="card-subtitle score">5.0/5</p>
+                        <button><a
+                                href="https://www.expedia.com/Dilijan-Hotels-Dghyak-Pansion.h38286517.Hotel-Information?chkin=2020-03-24&chkout=2020-03-25&x_pwa=1&rfrr=HSR&pwa_ts=1584433354552&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&swpToggleOn=true&rm1=a2&regionId=6353127&destination=Vanadzor%2C+Armenia&destType=MARKET&sort=recommended&top_dp=22&top_cur=USD&gclid=Cj0KCQjw9ZzzBRCKARIsANwXaeL_4T27nclS7a74szDA7fKD1uoIsQPKgmnKW5Wk5IeHKKIW2-A45dUaAt8-EALw_wcB&semcid=US.UB.GOOGLE.DL-c-EN.HOTEL"
+                                target="_blank">see more</a></button>
+                    </div>
+                </div>
+                <div class="col-9 col-sm-6 col-lg-4 col-xl-3 card-wrapper">
+                    <div class="card card-hotel w-100">
+                        <div class="card-img">
+                            <img src="images/hotels/6.jpg" alt="card-image" title="Vanatun Monastery Stay">
+                        </div>
+                        <h3 class="card-title">Vanatun Monastery Stay</h3>
+                        <p class="card-subtitle distance">21.41 mi from Vanadzor</p>
+                        <p class="card-subtitle score">4.0/5</p>
+                        <button><a
+                                href="https://www.expedia.com/Dilijan-Hotels-Vanatun-Monastery-Stay.h36916813.Hotel-Information?chkin=2020-03-24&chkout=2020-03-25&x_pwa=1&rfrr=HSR&pwa_ts=1584433354554&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&swpToggleOn=true&rm1=a2&regionId=6353127&destination=Vanadzor%2C+Armenia&destType=MARKET&sort=recommended&top_dp=41&top_cur=USD&gclid=Cj0KCQjw9ZzzBRCKARIsANwXaeL_4T27nclS7a74szDA7fKD1uoIsQPKgmnKW5Wk5IeHKKIW2-A45dUaAt8-EALw_wcB&semcid=US.UB.GOOGLE.DL-c-EN.HOTEL"
+                                target="_blank">see more</a></button>
+                    </div>
+                </div>
+                <div class="col-9 col-sm-6 col-lg-4 col-xl-3 card-wrapper">
+                    <div class="card card-hotel w-100">
+                        <div class="card-img">
+                            <img src="images/hotels/7.jpg" alt="card-image" title="Hayq Hotel Dilijan">
+                        </div>
+                        <h3 class="card-title">Hayq Hotel Dilijan</h3>
+                        <p class="card-subtitle distance">20.61 mi from Vanadzor</p>
+                        <p class="card-subtitle score">&nbsp;</p>
+                        <button><a
+                                href="https://www.expedia.com/Dilijan-Hotels-Hayq-Hotel-Dilijan.h35544801.Hotel-Information?chkin=2020-03-24&chkout=2020-03-25&x_pwa=1&rfrr=HSR&pwa_ts=1584433354563&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&swpToggleOn=true&rm1=a2&regionId=6353127&destination=Vanadzor%2C+Armenia&destType=MARKET&sort=recommended&gclid=Cj0KCQjw9ZzzBRCKARIsANwXaeL_4T27nclS7a74szDA7fKD1uoIsQPKgmnKW5Wk5IeHKKIW2-A45dUaAt8-EALw_wcB&semcid=US.UB.GOOGLE.DL-c-EN.HOTEL"
+                                target="_blank">see more</a></button>
+                    </div>
+                </div>
+                <div class="col-9 col-sm-6 col-lg-4 col-xl-3 card-wrapper">
+                    <div class="card card-hotel w-100">
+                        <div class="card-img">
+                            <img src="images/hotels/8.jpg" alt="card-image" title="IRIS mini hotel">
+                        </div>
+                        <h3 class="card-title">IRIS mini hotel</h3>
+                        <p class="card-subtitle distance">20.02 mi from Vanadzor</p>
+                        <p class="card-subtitle score">4.2/5</p>
+                        <button><a
+                                href="https://www.expedia.com/Alaverdi-Hotels-IRIS-Mini-Hotel.h36281072.Hotel-Information?chkin=2020-03-24&chkout=2020-03-25&x_pwa=1&rfrr=HSR&pwa_ts=1584433354538&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&swpToggleOn=true&rm1=a2&regionId=6353127&destination=Vanadzor%2C+Armenia&destType=MARKET&sort=recommended&top_dp=13&top_cur=USD&gclid=Cj0KCQjw9ZzzBRCKARIsANwXaeL_4T27nclS7a74szDA7fKD1uoIsQPKgmnKW5Wk5IeHKKIW2-A45dUaAt8-EALw_wcB&semcid=US.UB.GOOGLE.DL-c-EN.HOTEL"
+                                target="_blank">see more</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 heading text-center">
+                    <h2>Contact</h2>
+                </div>
+                <div class="col col-lg-8 d-flex justify-content-center">
+                    <form class="contact-form">
+                        <input type="text" name="name" class="contact-form-text" placeholder="Your name *">
+                        <input type="email" name="email" class="contact-form-text" placeholder="Your email *">
+                        <textarea name="message" class="contact-form-text" placeholder="Your message *"></textarea>
+                        <input type="submit" class="contact-form-btn" value="Send">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row first-line justify-content-center">
+                <div class="col-12 col-sm-4 col-md-2 logo d-flex justify-content-center">
+                    <a class="d-flex align-items-center" href="#header" data-target="anchor">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Vanadzor.</span>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 follow text-center">
+                    <h3>Follow Us</h3>
+                    <ul class="">
+                        <li>
+                            <a href="https://www.facebook.com/vanadzorcity/" target="_blank">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="http://vanadzor.am/" target="_blank">Vanadzor.am</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 navigation d-flex align-items-center">
+                    <ul class="d-flex w-100 text-center justify-content-between flex-column flex-sm-row">
+                        <li><a href="#header" data-target="anchor">home</a></li>
+                        <li><a href="#history" data-target="anchor">history</a></li>
+                        <li><a href="#places" data-target="anchor">places</a></li>
+                        <li><a href="#hotels" data-target="anchor">hotels</a></li>
+                        <li><a href="#contact" data-target="anchor">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row second-line">
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <p>&copy; Vanadzor <span id="year">2020</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS FILES -->
+    <script src="external/jquery/jquery.js"></script>
+    <script src="external/bootstrap4/js/bootstrap.min.js"></script>
+    <script src="external/remodal/remodal.min.js"></script>
+    <script src="external/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

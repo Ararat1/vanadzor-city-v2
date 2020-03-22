@@ -1,0 +1,275 @@
+// FONTS
+@import "./fonts"
+
+// VARIABLES
+@import "./variables"
+
+// MIXINS
+@import "./cardsStyle"
+
+// SASS CODE
+// DEFAULT SETTINGS
+@import "./default"
+
+// HEADER
+header 
+    font-family: "Montserrat-light"
+    position: relative
+    background: url("../images/header/bg.jpg")
+    min-height: 100vh
+    background-size: cover
+    background-position: center
+    padding-top: 4rem
+    padding-bottom: 2rem
+
+    .menu
+        font-size: 1.8rem
+        color: #fff
+        margin-bottom: 2rem
+
+        .navbar-brand
+            font-size: 2rem
+
+            i
+                font-size: 3.5rem
+                color: $yellow
+                margin-right: 1rem
+
+            span
+                font-family: "Montserrat-regular"
+                letter-spacing: .2rem
+
+        .navbar-toggler
+            font-size: 2rem
+            border: none
+            outline-style: none
+
+            &:active
+                background: rgba(0, 0, 0, .5)
+
+        .navbar-nav
+            color: #fff
+
+        .nav-item
+            color: #fff
+            padding: .5rem
+            border-bottom: 1px solid rgba(0, 0, 0, 0)
+            cursor: pointer
+
+            &:hover
+                border-color: $yellow
+
+        .nav-link
+            text-transform: uppercase
+
+    .greeting
+        color: #fff
+        
+        h1
+            font-size: 6rem
+            letter-spacing: 0.25
+            margin-bottom: 2rem
+
+            strong
+                color: $red
+                font-family: "Montserrat-bold"
+        
+        p
+            margin-bottom: 2rem
+            font-size: 2rem
+
+    .button
+        button
+            padding: 0 2rem
+            font-size: 3.5rem
+            color: $yellow
+            background: rgba(0, 0, 0, .5)
+            border: none
+            outline-style: none
+
+            a
+                color: inherit
+                outline-style: none
+
+// HISTORY SECTION
+section#history
+    background: $lightPlusBg
+
+    .heading
+        h2
+            color: $darkColor
+
+    .image
+
+        img
+            border-bottom: 6px inset $blue
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            max-width: 100%
+    
+    .text
+        line-height: 2rem
+        font-size: 1.4rem
+
+        .link
+            display: block
+            font-size: 1.8rem
+            margin-top: 1rem
+            margin-left: 75%
+            color: $darkColor
+
+// PLACES SECTION
+section#places
+    background: $light
+
+    @include cardsStyle()
+
+// GALLERY SECTION
+section.gallery
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100vh
+    background: rgba(0, 0, 0, .8)
+
+    button:hover
+        opacity: .8
+
+    .close-btn
+        background-color: rgba(0, 0, 0, 0)
+        color: $light
+        font-size: 3rem
+        outline: none
+        border: 0
+        margin-right: 30px
+
+    .arrow
+        color: #fff
+        background: rgba(0, 0, 0, 0)
+        cursor: pointer
+        font-size: 2em
+        border: 0
+        outline: none
+
+    .slide
+        height: 85vh
+        display: flex
+        align-items: center
+        justify-content: center
+
+        img
+            max-width: 100%
+            max-height: 90vh
+            margin: 0 auto
+
+// HOTELS SECTION
+section#hotels
+    background: $lightPlusBg
+
+    @include cardsStyle()
+
+// CONTACT SECTION
+section#contact
+    position: relative
+    background: url("../images/contact/bg.jpg")
+    min-height: 100vh
+    background-size: cover
+    background-position: center
+
+    .contact-form
+        width: 100%
+        margin: auto
+        padding: 0 10px
+        overflow: hidden
+
+        .contact-form-text
+                display: block
+                width: 100%
+                box-sizing: border-box
+                margin: 16px 0
+                border: 0
+                background: rgba(17, 17, 17, .85)
+                padding: 20px 40px
+                outline: none
+                color: #ddd
+                transition: 100ms
+                border-bottom: 5px solid rgba(0, 0, 0, 0)
+
+        textarea.contact-form-text
+            resize: none
+            min-height: 24rem
+
+        input.error, textarea.error
+            box-sizing: border-box
+            border-bottom: 5px solid $red
+
+        .contact-form-btn
+            float: right
+            border: 0
+            background: $blue
+            color: $light
+            font-family: "Montserrat-semiBold"
+            padding: 12px 50px
+            border-radius: 5px
+            border-bottom: 5px solid $red
+            cursor: pointer
+            transition: 100ms
+
+        .contact-form-btn:hover
+            background: $red
+            border-bottom-color: $blue
+            
+// FOOTER
+footer
+    background: #000
+    font-size: 1.8rem
+    padding: 3rem 0
+    font-family: "Montserrat-light"
+
+    .first-line
+        padding-bottom: 3rem
+        border-bottom: 1px solid $light
+
+    .logo     
+        a
+            font-size: 2rem
+            color: $light
+            text-decoration: none
+
+            i
+                font-size: 3.5rem
+                color: $yellow
+                margin-right: 1rem
+
+            span
+                font-family: "Montserrat-regular"
+                letter-spacing: .2rem
+    
+    .follow
+        h3
+            color: lightgrey
+            margin-bottom: 1rem
+        ul
+            li
+                padding: .3rem 0
+                font-size: 1.5rem
+
+            a
+                color: grey
+    
+    .navigation
+        li
+            padding: .8rem 0
+
+            a
+                color: $light
+
+    .second-line
+        margin-top: 3rem
+
+        p
+            color: $light
+
+// MEDIA REQUESTS
+@import "./breakpoints"
